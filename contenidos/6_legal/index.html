@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fortalecimiento de la confianza y la inclusión socio-económica</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <link href="css/aos.css" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Splide -->
+        <link rel="stylesheet" href="dist/css/splide.min.css">
+        <style>
+             .vl {
+                border-left: 1px solid #98A160;
+                height: 100%;
+                float: left;    
+            }
+
+            .titulo{
+                position: fixed;
+                background-image: url("img/titulo_01.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 400px;
+                height: 154px;
+                z-index: 2000 !important;
+            }
+
+            .titulo_txt{
+                text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+                position: relative;
+                padding: 10px;
+                margin-top: -5%;
+                margin-bottom: 2%;
+            }
+
+            img {
+                margin: auto;    
+                display: block;
+            }
+
+            .go-home {
+                cursor: pointer;
+                max-width: 5% !important;
+                height: auto;
+                margin-left: 100px;
+            }
+
+            @media (max-width: 1366px) {
+                .go-home {
+                    margin-left: 260px;
+                }
+
+                .titulo_txt{
+                    width: 50%;
+                    margin-top: -10%;
+                    padding: 20px;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                .titulo_txt{
+                    width: 44%;
+                    margin-top: -12%;
+                    padding: 15px;
+                }
+
+                .go-home {
+                    margin-left: 340px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .titulo{
+                    background-image: url("img/titulo_celu.png");
+                    margin-left: 30%;
+                    width: 280px;
+                    height: 117px;
+                }
+
+                .titulo_txt{
+                    width: 100%;
+                    margin-top: 0%;
+                    padding: 15px;
+                    background-color: #3E5100;
+                }
+
+                header {
+                    padding-top: 6.5rem;
+                }
+
+                .navbar-nav {
+                    margin-top: 10%;
+                }
+
+                .box{
+                    float: none;
+                }
+
+                .go-home {
+                    display: none;
+                }
+            }
+
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a href="../../index.html"><div class="titulo"></div></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <img src="img/home.svg" class="img-fluid go-home" onClick="goHome()">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <!--<ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#buscamos">La alianza</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#objetivos">Nuestro<br>objetivo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#preguntas">Nuestras preguntas<br>de investigación</a></li>
+                    </ul>-->
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Header-->
+        <header class="text-white">
+            <img src="img/imagen-5.jpg" alt="Header" width="100%" height="auto">
+            <div class="titulo_txt bottom-left"><h1 style="font-weight: 700;">Página legal</h1></div>
+        </header>
+
+        <section class="aos-item" id="buscamos" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="800" data-aos-delay="300">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <p class="lead"><i>Fortalecimiento de la confianza y la cooperación para la reincorporación socioeconómica de Firmantes de Paz en el departamento de Antioquia</i> / Harold Martínez Rojas, Paula A. Gutiérrez Yepes, David A. Ortiz Escobar, Han Dorussen, Valentino Benedetti Ramírez, Angie Juliana Bustos Bautista, Luisa Fernanda Contreras Cepeda, Ángela María Gaitán Murillo, Andrea García Albarracín, Johanna Amaya-Panche, V. Ximena Velasco-Guachalla. – Bogotá: Universidad Externado de Colombia, Fundación Ideas para la Paz y Universidad de Essex. 2021.</p>
+                        <p class="lead">ISBN: 978-958-790-800-8</p>
+                        <p class="lead">Recurso electrónico (varias páginas): ilustraciones, gráficas, mapas, videos, podcast.</p>
+                        <p class="lead">© 2022, Harold Martínez Rojas, Paula A. Gutiérrez Yepes, David A. Ortiz Escobar, Han Dorussen, Valentino Benedetti Ramírez, Angie Juliana Bustos Bautista, Luisa Fernanda Contreras Cepeda, Ángela María Gaitán Murillo, Andrea García Albarracín, Johanna Amaya-Panche, V. Ximena Velasco-Guachalla.</p>
+                        <p class="lead">©   2022, Universidad Externado de Colombia<br>
+                                        Calle 12 n.º 1-17 Este, Bogotá<br>
+                                        Teléfono (57 1) 342 0288<br>
+                                        publicaciones@uexternado.edu.co<br>
+                                        www.uexternado.edu.co<br>
+                      </p>
+                        <p class="lead">© 2021, Fundación Ideas para la Paz<br>
+                                        Calle 100 n.º 8A-37, Torre A, Oficina 701, Bogotá<br>
+                                        Teléfono (57 1) 747 0273<br>
+                                        fip@ideaspaz.org<br>
+                                        www.ideaspaz.org<br>
+                        </p>
+                        <p class="lead">© 2021, Universidad de Essex<br>
+                                        Wivenhoe Park, Colchester CO4 3SQ, Reino Unido<br>
+                                        Teléfono +44 1206 873333<br>
+                                        enquiries@essex.ac.uk<br>
+                                        www.essex.ac.uk<br>
+                        </p>
+                        <p class="lead">Primera edición digital: enero de 2022</p>
+                        <p class="lead">Corrección de estilo: María Carolina Méndez Téllez.</p>
+                        <p class="lead">Producción gráfica, audiovisual y desarrollo: Jorge Enrique Pongutá Mayorga, Wilfredo Salazar Blanco, Carlos Alberto Montoya Fonseca, Angélica María Meza Awad, Javier Mauricio Villalba González, Dirección de Innovación Educativa Digital, Universidad Externado de Colombia. Asesoría pedagógica: Heidy Johanna Ramírez Salamanca, Dirección de Innovación Educativa Digital, Universidad Externado de Colombia.</p>
+                        <p class="lead">Este libro interactivo presenta los resultados de la investigación sobre la incidencia de la confianza y la cooperación en la inclusión socioeconómica de los firmantes de paz, la cual se desarrolló entre la Facultad de Economía de la Universidad Externado de Colombia, la Fundación Ideas para la Paz y la Universidad de Essex, con la financiación del Fondo de Investigaciones para los Desafíos Globales (GCRF, por sus siglas en inglés) del Reino Unido.</p>
+                        <p class="lead">Prohibida la reproducción o cita impresa o electrónica total o parcial de esta obra, sin autorización expresa y por escrito del Departamento de Publicaciones de la Universidad Externado de Colombia, la Fundación Ideas para la Paz y la Universidad de Essex. Las opiniones expresadas en esta obra son responsabilidad de los autores.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="text-align: center;">
+                    <br>
+                    <a href="../7_referencias/index.html"><button type="button" class="btn btn-success">Ir a Referencias</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white"></p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script src="dist/js/splide.min.js"></script>
+
+        <script src="js/aos.js"></script>
+
+        <script>
+            //new Splide( '.splide' ).mount();
+
+            AOS.init({
+                easing: 'ease-in-out-sine'
+            });
+
+            function goHome(){
+                window.location.href = '../../index.html';
+            }
+        </script>
+    </body>
+</html>

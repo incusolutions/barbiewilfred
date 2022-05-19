@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fortalecimiento de la confianza y la inclusión socio-económica</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+        <style>
+
+            /*.page-holder {
+                min-height: 100vh;
+            }*/
+
+            body{
+                overflow: hidden;
+            }
+
+            ul {
+                padding-left: 2rem;
+                list-style-type: none;
+            }
+
+            ul li {
+                padding-left: 2rem;
+                background-image: url(img/icono.png);
+                background-position: 0 0;
+                background-size: 1.2rem 1.2rem;
+                background-repeat: no-repeat;
+                margin: 1rem 0;
+            }
+
+            a{
+                color: #FFFFFF;
+                font-weight: 700;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: #666666;
+            }
+
+            hr.vertical{
+                border: 0;
+                margin: 0;
+                padding-left: 10px;
+                border-left: 5px solid #465200;
+                height: 228px;
+                float: left;
+                opacity: 1 !important;
+                background-color: rgba(0, 0, 0, 0) !important;
+            }
+
+            .bg-cover{
+                background: none;
+            }
+
+            .menu{
+                background-color: rgb(0, 0, 0, 0.5);
+                border-radius: 0px 15px 15px 0px;
+                position: absolute;
+                top: 53%;
+                left: -840px;
+                padding: 20px 120px 0px 300px;
+                z-index: 1001;
+            }
+
+            .texto{
+                position: absolute;
+                margin-top: 28%;
+                margin-left: -40%;
+                z-index: 1000;
+            }
+
+            .op_1{
+                width: 13%;
+                height: auto;
+                padding: 10px;
+            }
+
+            .fondo{
+                position: absolute;
+                margin-top: -90px;
+                margin-left: -5px;
+            }
+
+            .btn-menu{
+                position: absolute;
+                cursor: pointer;
+                left: 855px;
+                top: 100px;
+            }
+
+            .icono{
+                float: left;
+                padding: 10px 10px 0px 50px;
+            }
+
+            @media (max-width: 1366px) {
+                body{
+                    font-size: 1rem;
+                }
+
+                hr.vertical{
+                    height: 260px;
+                }
+
+                .menu{
+                    top: 48%;
+                    left: -670px;
+                    padding: 5px 100px 0px 200px;
+                }
+
+                .texto{
+                    margin-top: 24%;
+                }
+
+                .btn-menu{
+                    width: 25px;
+                    height: auto;
+                    left: 680px;
+                    top: 85px;
+                }
+            }
+
+            @media (max-width: 1280px) {
+                body{
+                    font-size: 0.9rem;
+                }
+
+                hr.vertical{
+                    height: 220px;
+                }
+
+                .menu{
+                    top: 38%;
+                    left: -670px;
+                    padding: 5px 100px 0px 200px;
+                }
+
+                .texto{
+                    margin-top: 26%;
+                }
+
+                .btn-menu{
+                    width: 25px;
+                    height: auto;
+                    left: 680px;
+                    top: 85px;
+                }
+            }
+
+            @media (max-width: 1080px) {
+                body{
+                    font-size: 0.8rem;
+                }
+
+                hr.vertical{
+                    height: 210px;
+                }
+
+                .menu{
+                    top: 40%;
+                    left: -550px;
+                    padding: 5px 100px 0px 150px;
+                }
+
+                .texto{
+                    margin-top: 24%;
+                }
+
+                .btn-menu{
+                    width: 25px;
+                    height: auto;
+                    left: 570px;
+                    top: 70px;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                body{
+                    font-size: 0.8rem;
+                }
+
+                a{
+                    font-size: 0.75rem !important;
+                }
+
+                hr.vertical{
+                    height: 212px;
+                }
+
+                .menu{
+                    top: 40%;
+                    left: -490px;
+                    padding: 5px 100px 0px 100px;
+                }
+
+                .texto{
+                    margin-top: 23%;
+                }
+
+                .btn-menu{
+                    width: 20px;
+                    height: auto;
+                    left:515px;
+                    top: 80px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                body{
+                    font-size: 1rem;
+                    overflow: auto;
+                }
+
+                .bg-cover{
+                    background: url(img/fondo_768.jpg);
+                    background-size: cover !important;
+                    height: 1024px;
+                }
+
+                #scene{
+                    display: none;
+                }
+
+                ul li {
+                    padding-left: 2rem;
+                    background-size: 1.5rem 1.5rem;
+                    background-repeat: no-repeat;
+                    margin: 0.2rem 0;
+                }
+
+                a{
+                    font-size: 1rem !important;
+                }
+
+                hr.vertical{
+                    height: 480px;
+                }
+
+                .menu{
+                    background-color: #465200;
+                    border-radius: 0px 0px 0px 0px;
+                    top: 730px;
+                    left: 0px;
+                    width: 100%;
+                    height: 40%;
+                    padding: 20px 5px 5px 20px;
+                }
+
+                .texto{
+                    margin-top: 25%;
+                    margin-left: -60%;
+                }
+
+                .btn-menu{
+                    display: none;
+                }
+
+                .icono{
+                    float: left;
+                    padding: 10px 10px 0px 140px;
+                }
+            }
+
+            @media (max-width: 576px) {
+                body{
+                    overflow: auto;
+                }
+
+                .bg-cover{
+                    background: url(img/fondo_576.jpg);
+                    height: 1024px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                ul li {
+                    padding-left: 2rem;
+                    background-size: 1.5rem 1.5rem;
+                    background-repeat: no-repeat;
+                    margin: 0.2rem 0;
+                }
+
+                a{
+                    font-size: 1rem !important;
+                }
+
+                hr.vertical{
+                    height: 310px;
+                }
+
+                .menu{
+                    background-color: #465200;
+                    border-radius: 0px 0px 0px 0px;
+                    top: 115%;
+                    left: 0px;
+                    padding: 5px 5px 5px 20px;
+                }
+
+                .texto{
+                    margin-top: 153%;
+                    margin-left: 1%;
+                }
+
+                .btn-menu{
+                    display: none;
+                }
+
+                .icono{
+                    float: left;
+                    padding: 10px 10px 0px 35px;
+                }
+            }
+
+        </style>
+        
+    </head>
+    <body onload="calcula_tamano()">
+        
+        <section class="bg-cover">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div id="parrafo" class="col-md-4 texto">
+                        <hr class="vertical" />
+                        <p>La Facultad de Economía de la Universidad Externado de Colombia, la Fundación Ideas para la Paz y la Universidad de Essex, con la financiación del Fondo de Investigaciones para los Desafíos Globales (GCRF, por sus siglas en inglés) del Reino Unido, unieron fuerzas para entender cómo la confianza y la cooperación inciden en la inclusión socioeconómica de los firmantes de paz. Lo invitamos a navegar por el libro interactivo para conocer los resultados de la investigación.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="menu" id="enlaces">
+                            <img id="btn_menu" class="btn-menu" src="img/btn_m1.svg" alt="menu" width="30px" height="auto" onclick="anima_enlaces()">
+                            <ul>
+                                <li><a href="contenidos/1_que_buscamos/index.html">La investigación</a></li>
+                                <li><a href="contenidos/2_confianza_cooperacion/index.html">Confianza, cooperación y reincorporación</a></li>
+                                <li><a href="contenidos/3_dinamica/index.html">¿Por qué Antioquia?</a></li>
+                                <li><a href="contenidos/4_resultados/index.html">Resultados</a></li>
+                                <li><a href="contenidos/5_columnas/index.html">Columnas de opinión</a></li>
+                            </ul>
+                            <a href="contenidos/6_legal/index.html"><div class="icono">
+                                <img class="mx-auto d-block" src="img/legal.png" alt="Página legal" style="width: 50px; height: auto;">
+                                <p style="color: #FFFFFF; text-align: center;">Legal</p>
+                            </div></a>
+                            <a href="contenidos/7_referencias/index.html"><div class="icono">
+                                <img class="mx-auto d-block" src="img/indice.png" alt="Índice" style="width: 50px; height: auto;">
+                                <p style="color: #FFFFFF; text-align: center;">Referencias</p>
+                            </div></a>
+                            <a href="contenidos/8_recursos/index.html"><div class="icono">
+                                <img class="mx-auto d-block" src="img/creditos.png" alt="Créditos" style="width: 50px; height: auto;">
+                                <p style="color: #FFFFFF; text-align: center;">Recursos de<br>interés</p>
+                            </div></a>
+                            <!--<div class="icono">
+                                <img src="img/agradece.png" alt="Agradecimientos" style="width: 50px; height: auto; margin-left: 45px;">
+                                <p style="color: #FFFFFF;">Agradecimientos</p>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="scene" class="fondo">
+            <div data-depth="0.00"><img src="img/fondo.jpg" style="width:100%;"></div>
+            <div data-depth="0.00"><img src="img/titulo_01.png" style="width: 70%; margin-left: -15%;"></div>
+            <!--<div data-depth="0.00"><img src="img/circulo_02.png" style="width: 70%; margin-top: 16%; margin-left: -8%;"></div>-->
+            <div data-depth="0.00" style="background-color: #465200; width: 100%; height: 300px; margin-top: 50%;"></div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+        <script>
+            var scene = document.getElementById('scene');
+		    var parallax = new Parallax(scene);
+
+            var ancho = parseInt(window.innerWidth);
+            var getAnim = 0;
+
+            var toggle = false;
+
+            function calcula_tamano(){
+                console.log("ancho ventana: " + ancho);
+                
+                if(ancho > 1366){
+                    console.log("1920 x 1080");
+                    getAnim = 1;
+                }else{
+                    if(ancho <= 1366 && ancho > 1080){
+                        console.log("1366 x 768");
+                        getAnim = 2;
+                    }else{
+                        if(ancho <= 1080 && ancho > 1024){
+                            console.log("1080");
+                            getAnim = 3;
+                        }else{
+                            if(ancho <= 1024 && ancho > 768){
+                                console.log("1024 x 576");
+                                getAnim = 4;
+                            }else{
+                                getAnim = 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            function anima_enlaces(){
+                var elem = document.getElementById("enlaces");
+                var elem2 = document.getElementById("parrafo");
+
+                var valor = 0;
+
+                if(getAnim == 1){
+                    valor = 840;
+                }else{
+                    if(getAnim == 2){
+                        valor = 670;
+                    }else{
+                        if(getAnim == 3){
+                            valor = 550;
+                        }else{
+                            if(getAnim == 4){
+                                valor = 490;
+                            }else{
+                                valor = 0;
+                            }
+                        }
+                    }
+                }
+
+                if(getAnim != 0){
+                    if(!toggle){
+                        gsap.to(elem, .5, {x:valor});
+                        gsap.to(elem2, .5, {alpha:0});
+                        document.getElementById("btn_menu").src = "img/btn_m2.svg";
+                        toggle = true;
+                    }else{
+                        gsap.to(elem, .5, {x:0});
+                        gsap.to(elem2, .5, {alpha:1});
+                        document.getElementById("btn_menu").src = "img/btn_m1.svg";
+                        toggle = false;
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

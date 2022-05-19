@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fortalecimiento de la confianza y la inclusión socio-económica</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <link href="css/aos.css" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Splide -->
+        <link rel="stylesheet" href="dist/css/splide.min.css">
+        <style>
+            .vl {
+                border-left: 1px solid #98A160;
+                height: 100%;
+                float: left;    
+            }
+
+            .titulo{
+                position: fixed;
+                background-image: url("img/titulo_01.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 400px;
+                height: 154px;
+                z-index: 2000 !important;
+            }
+
+            .titulo_txt{
+                width: 40%;
+                text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+                position: relative;
+                padding: 10px;
+                margin-top: -10%;
+                margin-bottom: 2%;
+            }
+
+            img {
+                margin: auto;    
+                display: block;
+            }
+
+            .figure{
+                display: block !important;
+            }
+
+            .go-home {
+                cursor: pointer;
+                max-width: 5% !important;
+                height: auto;
+                margin-left: 100px;
+            }
+
+            @media (max-width: 1366px) {
+                .titulo_txt{
+                    width: 38%;
+                    margin-top: -14%;
+                    padding: 20px;
+                }
+
+                .go-home {
+                    margin-left: 260px;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                .titulo_txt{
+                    width: 44%;
+                    margin-top: -24%;
+                    padding: 15px;
+                }
+
+                .go-home {
+                    margin-left: 340px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .titulo{
+                    background-image: url("img/titulo_celu.png");
+                    margin-left: 30%;
+                    width: 280px;
+                    height: 117px;
+                }
+
+                .titulo_txt{
+                    width: 100%;
+                    margin-top: 0%;
+                    padding: 15px;
+                    background-color: #3E5100;
+                }
+
+                header {
+                    padding-top: 6.5rem;
+                }
+
+                .navbar-nav {
+                    margin-top: 10%;
+                }
+
+                .box{
+                    float: none;
+                }
+
+                .go-home {
+                    display: none;
+                }
+            }
+
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a href="../../index.html"><div class="titulo"></div></a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <img src="img/home.svg" class="img-fluid go-home" onClick="goHome()">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><div class="vl"></div><a class="nav-link" href="#antioquia">¿Por qué<br>Antioquia?</a></li>
+                        <li class="nav-item"><div class="vl"></div><a class="nav-link" href="#proceso">Proceso de<br>reincorporación</a></li>
+                        <li class="nav-item"><div class="vl"></div><a class="nav-link" href="#municipios">Municipios<br>de interés</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Header-->
+        <header class="text-white">
+            <img src="img/imagen-3.jpg" alt="Header" width="100%" height="auto">
+            <div class="titulo_txt bottom-left"><h1 style="font-weight: 700;">Dinámica empresarial y de reincorporación. ¿Cómo está Antioquia?</h1></div>
+        </header>
+
+
+        <section class="aos-item" id="antioquia" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="800" data-aos-delay="300">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="box"><h2>¿Por qué Antioquia?</h2></div>
+                        <div class="clear">
+                            <h3>Contexto</h3>
+                            <p class="lead">Antioquia es un departamento ubicado en el noroeste colombiano, en la región del eje cafetero. Su capital es la reconocida ciudad de Medellín. El departamento de Antioquia se divide en nueve subregiones en las cuales se han configurado diferentes dinámicas en torno al proceso de paz y la reincorporación.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <figure class="figure">
+                            <img src="img/Mapa_Antioquia.PNG" class="figure-img img-fluid" alt="Mapa Antioquia" style="width: 50%; height: auto;">
+                            <figcaption class="figure-caption" style="text-align: center;">Fuente: UNODC (2013)</figcaption>
+                        </figure>
+                    </div>
+                    <!--<div class="col-md-12">
+                        <figure class="figure">
+                            <img src="img/image2.jpeg" class="figure-img img-fluid" alt="Mapa subregiones de Antioquia" style="width: 50%; height: auto;">
+                            <figcaption class="figure-caption" style="text-align: center;">Figura 2. Mapa de los PDET en la parte de: Proceso de reincorporación en el departamento de Antioquia.</figcaption>
+                        </figure>
+                    </div>-->
+                    <div class="col-lg-12">
+                        <h3>Economía</h3>
+                        <p class="lead">Antioquia se posiciona como la segunda economía más fuerte del país después de Bogotá al aportar el 14,45% del PIB nacional en 2020; cuando su contribución en el PIB nacional fue de 153.518 miles de millones de pesos frente a 270.776 miles de millones de pesos de la capital del país (Cámara de Comercio de Medellín, 2020). Gracias a su dinamismo empresarial, el crecimiento económico de este departamento ha estado por encima del promedio nacional, sin embargo, debido a la pandemia la economía atravesó una contracción generalizada y, para el cierre de 2020, el PIB de Antioquia se estimó en 149,7 miles de millones de pesos, lo que se traduce en una variación negativa de 5,5% (Fenalco Antioquia, 2020).</p>
+                        <p class="lead">Haga clic en cada botón y conozca más información.</p>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Sectores económicos representativos
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="lead">En cuanto a los sectores económicos con mayor participación en el PIB departamental se destacan: comercio, hoteles y reparaciones (15,6%); manufactureras (14,1%) y administración pública y defensa (12,4%) (Ministerio de Comercio, 2021).</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Mercado laboral
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p class="lead">En 2019 Antioquia presentó una tasa de ocupación del 55,5% y una tasa de desempleo del 11,2 % (DANE, 2021). En Medellín y su área metropolitana, entre diciembre de 2019 y febrero de 2020, las personas trabajadoras en la informalidad representaban el 40,8% de la población empleada (DANE, 2020). Durante el 2020 se dio un fenómeno a nivel nacional –relacionado con la pandemia– de pérdida de empleos, que en Antioquia se reflejó en el aumento de la tasa de desempleo a 15,9% (DANE, 2021).</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Tejido empresarial
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p class="lead">Desde inicios del siglo XX, Antioquia se ha caracterizado por tener uno de los tejidos empresariales más sólidos del país. En 2017, Antioquia registraba el 13% del total de empresas del país con una cifra de 192.572 empresas. La gran mayoría se encontraba ubicada en Medellín y el Valle de Aburrá (el 72%), le siguen en la distribución las regiones de Oriente (9%) y Urabá́ (5%) (Cámara de Comercio de Medellín, 2019).</p>
+									  <p class="lead">El tejido empresarial antioqueño está concentrado principalmente en las microempresas, que representan el 90% de las empresas antioqueñas, seguidas por las Pymes, con el 9,3%, y las grandes empresas, que a pesar de representar solo el 0,7% de las empresas del departamento, poseen cerca del 92 % de los activos (Cámara de Comercio de Medellín, 2019).</p>
+                        <p class="lead">Para el año 2020 las diez compañías con más ingresos de la región lograron entrar al listado de las 50 más vendedoras del todo el país. Además, según el Índice Departamental de Innovación para Colombia (IDIC) Antioquia lidera los pilares de Capital humano e investigativo, Infraestructura, Sofisticación de mercados y Sofisticación de negocios con una puntuación de 6,8 frente al 8,3 de Bogotá D.C. (DNP, 2020).</p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <br>
+                        <h3>Reincorporación</h3>
+                        <p class="lead">Para septiembre de 2021, un 10,47% de las personas en proceso de reincorporación se ubicaba en Antioquia. Lo anterior, posiciona a este Departamento como el segundo donde más se ubican los excombatientes después del departamento del Meta (ARN en Cifras, 2021).</p>
+                        <p class="lead">Antioquia tiene cuatro Antiguos Espacios Territoriales de Capacitación y Reincorporación (AETCR) distribuidos por partes iguales en cada subregión PDET (Programas de Desarrollo con Enfoque Territorial). Los AETCR de Carrizal y La Plancha, ubicados en los municipios de Remedios y Anorí, pertenecen a la subregión del Bajo Cauca y Nordeste antioqueño, mientras que los AETCR de Llano Grande y La Fortuna se ubican en Dabeiba y Mutatá, en la subregión PDET de Urabá (ARN, 2021a; Gobernación de Antioquia, 2020).</p>
+                        <p class="lead">La alta concentración de población firmante de paz, así como el importante conglomerado empresarial y económico del Departamento fueron razones determinantes para priorizar el departamento de Antioquia en el desarrollo de esta investigación.</p>
+                        <!-- Figura 1 -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light aos-item" id="proceso" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="800" data-aos-delay="300">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="box"><h2>Proceso de reincorporación en el departamento de Antioquia</h2></div>
+                        <div class="clear">
+                            <h3>Aspectos generales</h3>
+                            <p class="lead">Haga clic en cada botón y conozca más información.</p>
+                        </div>
+                        <div class="accordion" id="accordion_2">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Programas de Desarrollo con Enfoque Territorial
+                                </button>
+                              </h2>
+                              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion_2">
+                                <div class="accordion-body">
+                                    <p class="lead">Como resultado del Acuerdo de paz surgió la constitución de los Programas de Desarrollo con Enfoque Territorial (PDET) (Ministerio de Agricultura y Desarrollo Rural, 2017), los cuales buscan responder a un compromiso necesario para comenzar a subsanar una de las causas estructurales del conflicto armado interno, a partir de la transformación del campo y la priorización de una reforma rural integral (Fundación Ideas Para la Paz, 2017).</p>
+                                    <p class="lead">Según la Agencia de Renovación del Territorio en Colombia fueron priorizados 170 municipios agrupados en 16 subregiones a partir de variables como pobreza, intensidad en el conflicto armado, debilidad institucional y economías ilícitas (Renovación del Territorio - PDET, 2021). Antioquia cuenta con 24 municipios dentro de cuatro subregiones PDET, siendo el departamento con más programas de este tipo en su territorio. Dichos PDET se organizan de la siguiente forma:</p>
+                                    <ul>
+                                        <li><b>PDET Bajo Cauca y Nordeste Antioqueño:</b> Amalfi, Anorí, Briceño, Cáceres, Caucasia, El Bagre, Ituango, Nechí, Remedios, Segovia, Tarazá, Valdivia y Zaragoza.</li>
+                                        <li><b>PDET Urabá Antioqueño:</b> Apartadó, Carepa, Chigorodó, Dabeiba, Mutatá, Necoclí, San Pedro de Urabá y Turbo.</li>
+                                        <li><b>PDET Chocó:</b> Murindó, Vigía del Fuerte y otros 12 municipios del departamento del Chocó.</li>
+                                        <li><b>PDET Sur de Bolívar:</b> Yondó y otros seis municipios del departamento de Bolívar.</li>
+                                    </ul>
+                                    <p class="lead">Las zonas PDET priorizadas en esta investigación son las subregiones de Bajo Cauca y Nordeste Antioqueño junto con Urabá Antioqueño; por la ubicación de los municipios tratados en la investigación.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Antiguos Espacios Territoriales de Capacitación para la Reincorporación y Nuevas Áreas de Reincorporación
+                                </button>
+                              </h2>
+                              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion_2">
+                                <div class="accordion-body">
+                                  <p class="lead">Según la Agencia para la reincorporación y la normalización (ARN), “los Antiguos Espacios Territoriales de Capacitación y Reincorporación (AETCR) son espacios creados con el objetivo de finalizar la etapa transitoria de los ETCR y brindar soluciones permanentes a los excombatientes que decidieron permanecer en la legalidad” (ARN, 2021a). Estos espacios son el resultado de una transición de escenarios físicos creados con diferentes objetivos en el marco del Acuerdo de paz y la reincorporación de excombatientes de las FARC-EP partiendo desde las Zonas Veredales Transitorias de Normalización (ZVTN), creadas y terminadas jurídicamente en 2017, hasta las ETCR que perdieron su vigencia jurídica en agosto de 2019 y dieron paso a la figura de AETCR (Ministerio de Vivienda de Colombia, 2021).</p>
+                                  <p class="lead">En estos espacios, además de desarrollarse los proyectos productivos, colectivos o individuales que garantizan la reincorporación socioeconómica, se facilita el acercamiento de la oferta pública local a través de las gobernaciones y alcaldías al 19,59% de las personas en proceso de reincorporación que allí residen (ARN, 2021a).</p>
+                                  <p class="lead">Con la salida de los firmantes de paz de los ETCR se conformaron nuevos espacios de reagrupamiento que cumplen la función de reunir a las personas que se han dispersado debido a la falta de confianza y la incertidumbre en torno al proceso de paz. Estos espacios son denominados Nuevas Áreas de Reincorporación (NAR). Si bien en las NAR también se adelantan proyectos productivos, no se garantiza el derecho a vivienda ni la seguridad (Defensoría del Pueblo, 2020).</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <br>
+                            <figure class="figure">
+                                <img src="img/image2.jpeg" class="figure-img img-fluid" alt="Mapa subregiones de Antioquia" style="width: 50%; height: auto;">
+                                <figcaption class="figure-caption" style="text-align: center;">Figura 2. Subregiones y Municipios PDET.<br>Fuente: Agencia de Renovación del Territorio, 2020, citado por Berrío y Hernández (2020).</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-lg-12">
+                            <br>
+                            <h3>Aspectos puntuales</h3>
+                            <ul>
+                                <li>Según el informe de la ARN en cifras de septiembre de 2021, para este mes había 12.920 personas en proceso de reincorporación en todo el país. De ellas, 1.354 (10,47%) se ubicaban en Antioquia convirtiéndose en el segundo departamento donde más se concentran firmantes de paz en proceso de reincorporación después del Meta en el que habitan 1.388 firmantes de paz (ARN en Cifras, 2021).</li>
+                                <li>En Antioquia se encuentran cuatro Antiguos Espacios Territoriales de Capacitación y Reincorporación (AETCR), antes Zonas Veredales Transitorias de Normalización, distribuidos por partes iguales en cada subregión PDET (ARN en Cifras, 2021).</li>
+                                <li>Los Antiguos ETCR de Carrizal y La Plancha, ubicados en los municipios de Remedios y Anorí, pertenecen a la subregión PDET del Bajo Cauca y Nordeste Antioqueño, mientras que los Antiguos ETCR de Llano Grande y Mutatá se ubican en Dabeiba y Mutatá, dentro de la subregión PDET de Urabá (Agencia para la reincorporación y la normalización - ARN, 2021) (Gobernación de Antioquia, 2020).</li>
+                                <li>Para la investigación se consultaron varias fuentes como los informes de la Agencia para la reincorporación y la normalización (ARN en Cifras, 2021) y la Revista Generación Paz. Con estas pesquisas se evidenció que existen 48 proyectos productivos en el departamento de Antioquia (Revista Generación Paz, 2020).</li>
+                            </ul>
+                            <h4>¿Sabías que?...</h4>
+                            <p class="lead">Uno de los retos estructurales del proceso de reincorporación socioeconómica de los firmantes de paz no solo en Antioquia sino en todo el país, radica en las escasas garantías de seguridad. Según el último informe de Indepaz de octubre de 2021, “desde la firma del Acuerdo han sido asesinados 290 firmantes de paz” (Contagio Radio, 2021). Una cifra preocupante que tiene en alerta a todos los firmantes del Acuerdo de paz y afecta la confianza que tienen tanto en el Acuerdo como en el gobierno nacional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aos-item" id="municipios" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="800" data-aos-delay="300">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="box"><h2>Municipios y subregiones de interés</h2></div>
+                        <div class="clear">
+                            <p class="lead">Haga clic en los municipios resaltados en el siguiente mapa para mayor información.</p>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="mapas/index.html" title="mapa" scrolling="no"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="text-align: center;">
+                    <br>
+                    <a href="../4_resultados/index.html"><button type="button" class="btn btn-success">Siguiente capítulo</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white"></p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script src="dist/js/splide.min.js"></script>
+
+        <script src="js/aos.js"></script>
+
+        <script>
+            //new Splide( '.splide' ).mount();
+
+            AOS.init({
+                easing: 'ease-in-out-sine'
+            });
+
+            function goHome(){
+                window.location.href = '../../index.html';
+            }
+        </script>
+    </body>
+</html>
